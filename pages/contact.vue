@@ -15,7 +15,7 @@
       </div>
       <div class="page-detail-wrapper">
         <div key="page-detail" class="contact-image-wrapper">
-          <!-- <img class="contact-image" src="/images/mykl-illustration.png" alt="The boy who lived.  Boy, do I look like Harry Potter or what?"> -->
+          <img class="contact-image" src="/images/mykl-illustration.png" alt="The boy who lived.  Boy, do I look like Harry Potter or what?">
         </div>
       </div>
     </div>
