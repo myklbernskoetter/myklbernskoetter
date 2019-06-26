@@ -15,7 +15,7 @@
       </div>
       <div class="page-detail-wrapper">
         <div key="page-detail" class="contact-image-wrapper">
-          <img class="contact-image" src="/images/mykl-illustration.png" alt="The boy who lived.  Boy, do I look like Harry Potter or what?">
+          <!-- <img class="contact-image" src="/images/mykl-illustration.png" alt="The boy who lived.  Boy, do I look like Harry Potter or what?"> -->
         </div>
       </div>
     </div>
@@ -320,6 +320,9 @@ export default {
   // Split Page Overrides
   //------------------
   .split-page {
+    flex: 1;
+    grid-template-rows: 100%;
+
     @media screen and (min-width: 1020px) {
       margin-top: 5rem;
       overflow: hidden;
@@ -330,6 +333,9 @@ export default {
   // Contact Page Defaults
   //------------------
   .contact-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin-top: 12rem;
     overflow-x: hidden;
 
@@ -340,6 +346,11 @@ export default {
     @media screen and (min-width: 1020px) {
       margin-top: 0;
     }
+  }
+
+  .title-wrapper,
+  .page-detail-wrapper {
+
   }
 
   // Title

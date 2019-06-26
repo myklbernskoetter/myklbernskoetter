@@ -40,4 +40,13 @@ export default {
   .fadeOpacity-leave-active {
     opacity: 0;
   }
+
+  #__nuxt,
+  #__layout {
+    height: 100vh;
+  }
+
+  .two-active {
+    height: 100%;
+  }
 </style>
