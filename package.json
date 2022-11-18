@@ -19,7 +19,7 @@
     "acorn": "^6.1.1",
     "ajv": "^6.4.0",
     "node-sass": "^4.8.3",
-    "nuxt": "^2.8.1",
+    "nuxt": "^2.15.8",
     "parallelshell": "3.0.1",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
